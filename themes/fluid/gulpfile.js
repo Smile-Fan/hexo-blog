@@ -5,6 +5,7 @@ const eslint = require('gulp-eslint');
 const shell = require('gulp-shell');
 const yaml = require('js-yaml');
 
+
 gulp.task('lint', () => gulp.src([
   './source/js/**/*.js',
   './scripts/**/*.js'
@@ -45,5 +46,6 @@ gulp.task('validate:languages', cb => {
 
   return errors.length === 0 ? cb() : cb(errors);
 });
+
 
 gulp.task('default', gulp.series('lint', 'lint:ejs', 'validate:config', 'validate:languages'));

@@ -130,29 +130,29 @@ image_minifier:
   progressive: false
 
 ## live2d
-live2d:
-   enable: true
-   scriptFrom: local
-   pluginRootPath: live2dw/
-   pluginJsPath: lib/
-   pluginModelPath: assets/
-   tagMode: false
-   debug: false
-   model:
-       use: live2d-widget-model-haruto
-       scale: 1
-       hHeadPos: 0.5
-       vHeadPos: 0.618
-   display:
-       superSample: 2
-       width: 180
-       height: 350
-       position: left
-       hOffset: 0
-       vOffset: -20
-   mobile:
-       show: true
-       scale: 0.5
-   react:
-      opacityDefault: 0.7
-      opacityOnHover: 0.2
+# live2d:
+#    enable: true
+#    scriptFrom: local
+#    pluginRootPath: live2dw/
+#    pluginJsPath: lib/
+#    pluginModelPath: assets/
+#    tagMode: false
+#    debug: false
+#    model:
+#        use: live2d-widget-model-haruto
+#        scale: 1
+#        hHeadPos: 0.5
+#        vHeadPos: 0.618
+#    display:
+#        superSample: 2
+#        width: 180
+#        height: 350
+#        position: left
+#        hOffset: 0
+#        vOffset: -20
+#    mobile:
+#        show: true
+#        scale: 0.5
+#    react:
+#       opacityDefault: 0.7
+#       opacityOnHover: 0.2
