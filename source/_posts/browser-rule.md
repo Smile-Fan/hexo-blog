@@ -1,7 +1,7 @@
 ---
 title: 浏览器工作原理
 tags: [前端,浏览器 ]
-index_img: /img/banner8.jpeg
+index_img: /img/chrome.jpeg
 date: 2021-08-20 14:01:32
 ---
 >面试题：在浏览器输入url后按下回车发生了什么
