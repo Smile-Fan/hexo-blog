@@ -993,3 +993,5 @@ static_prefix:
   twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.4.4/dist/
 
   hint: /lib/hint/
+  
+  live2d-widget: https://cdn.jsdelivr.net/gh/Smile-Fan/live2d-widget@latest/autoload.js
