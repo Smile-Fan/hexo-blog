@@ -42,8 +42,8 @@ fun2();
     //     老子很帅
 ```
 配几张图来看看事件循环的样子
-![事件循环1](/img/eventloop1.wbmp)
-![事件循环2](/img/eventloop2.wbmp)
+![事件循环1](/img/eventloop1.png)
+![事件循环2](/img/eventloop2.png)
 
 到此事件循环概念你肯定已经理解了
 
