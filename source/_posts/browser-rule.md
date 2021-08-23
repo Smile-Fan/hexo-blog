@@ -1,7 +1,8 @@
 ---
 title: 浏览器工作原理
 tags: [前端,浏览器 ]
-index_img: /img/chrome.jpeg
+index_img: /img/chrome.webp
+banner_img: /img/banner8.webp
 date: 2021-08-20 14:01:32
 ---
 >面试题：在浏览器输入url后按下回车发生了什么
@@ -13,7 +14,7 @@ date: 2021-08-20 14:01:32
 第二次：服务器收到SYN包之后向客户端发送ACK+SYN包    （至此客户端向服务端的单向连接已建立）
 第三次：客户端接收到ACK包之后给服务端发送ACK包            （服务端到客户端的连接已经建立）
 ### 3.SSL/TLS协议（HTTPS）
-![https原理图](/img/https.png)
+![https原理图](/img/https.webp)
 ### 4.响应
 &emsp;&emsp;一旦我们建立了到web服务器的连接，浏览器就代表用户发送一个初始的HTTP GET请求，对于网站来说，这个请求通常是一个HTML文件。 一旦服务器收到请求，它将使用相关的响应头和HTML的内容进行回复。
 ### 5.慢开始、14kb原则

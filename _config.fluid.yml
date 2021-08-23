@@ -418,7 +418,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/banner10.png
+  banner_img: /img/banner10.webp
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -545,7 +545,7 @@ post:
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
   updated:
-    enable: false
+    enable: true
 
     # 描述文字
     # Descriptive text before date
@@ -781,7 +781,7 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/banner9.png
+  banner_img: /img/banner9.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -841,7 +841,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/banner5.jpeg
+  banner_img: /img/banner5.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -889,7 +889,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/banner6.jpeg
+  banner_img: /img/banner6.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
