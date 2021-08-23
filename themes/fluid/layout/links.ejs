@@ -43,3 +43,10 @@ page.banner_mask_alpha = theme.links.banner_mask_alpha
     <%- partial(type) %>
   </article>
 <% } %>
+<% if(theme.links.comments) { %>
+  <!-- Comments -->
+  <article class="comments" id="comments">
+    <% var type = '_partial/comments/' + theme.post.comments.type %>
+    <%- partial(type) %>
+  </article>
+<% } %>

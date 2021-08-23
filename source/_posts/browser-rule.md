@@ -1,6 +1,7 @@
 ---
-title: 浏览器工作原理
+title: 浏览器工作原理🔨
 tags: [前端,浏览器 ]
+category: [技术]
 index_img: /img/chrome.webp
 banner_img: /img/banner8.webp
 date: 2021-08-20 14:01:32

@@ -1,6 +1,7 @@
 ---
 title: Cookie及本地化存储
 tags: [前端,本地化存储 ]
+category: [技术]
 index_img: /img/cookie.webp
 banner_img: /img/banner8.jpeg
 date: 2021-07-29 13:20:32

@@ -1,6 +1,7 @@
 ---
 title: 博客介绍
 tags: [博客]
+category: [技术]
 index_img: /img/banner4.webp
 banner_img: /img/banner8.webp
 sticky: 100
