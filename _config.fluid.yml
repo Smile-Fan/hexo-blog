@@ -504,7 +504,7 @@ post:
     # 作者，优先根据 front-matter 里 author 字段，其次是 hexo 配置中 author 值
     # Author, based on `author` field in front-matter, if not set, based on `author` value in hexo config
     author:
-      enable: false
+      enable: true
 
     # 文章日期，优先根据 front-matter 里 date 字段，其次是 md 文件日期
     # Post date, based on `date` field in front-matter, if not set, based on create date of .md file
@@ -530,12 +530,12 @@ post:
       format: "{} 分钟"
       # 每分钟阅读多少字，如果是技术文章，建议降低
       # Words read per minute
-      words: 100
+      words: 80
 
     # 浏览量计数
     # Number of visits
     views:
-      enable: false
+      enable: true
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud
@@ -993,5 +993,9 @@ static_prefix:
   twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.4.4/dist/
 
   hint: /lib/hint/
-  
-  live2d-widget: https://cdn.jsdelivr.net/gh/Smile-Fan/live2d-widget@latest/autoload.js
+
+  qipao: https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/qipao.js
+
+  caidai: https://cdn.jsdelivr.net/gh/bynotes/texiao/source/js/caidai.js
+
+  backstretch: https://cdn.staticfile.org/danielgindi-jquery-backstretch/2.1.15/
