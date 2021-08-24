@@ -64,7 +64,7 @@ var colorSchema = theme.dark_mode && theme.dark_mode.enable && theme.dark_mode.d
         </div>
       </div>
     <% } %>
-
+    <p id="hitokoto" style="text-align: center; height: 30px; line-height: 30px; font-size: 14px;margin-top: 15px;">:D 获取中...</p>
     <% if (theme.scroll_top_arrow.enable) { %>
       <a id="scroll-top-button" href="#" role="button">
         <i class="iconfont icon-arrowup" aria-hidden="true"></i>
@@ -88,6 +88,26 @@ var colorSchema = theme.dark_mode && theme.dark_mode.enable && theme.dark_mode.d
 
   <!-- SCRIPTS -->
   <%- partial('_partial/scripts') %>
+<!-- 以下写法，选取一种即可 -->
+
+<!-- 现代写法，推荐 -->
+<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+<!--End-->
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(function (res){
+      return res.json();
+    })
+    .then(function (data) {
+      var hitokoto = document.getElementById('hitokoto');
+      hitokoto.innerText = data.hitokoto; 
+    })
+    .catch(function (err) {
+      console.error(err);
+    })
+</script>
 
 </body>
 </html>
