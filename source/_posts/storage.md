@@ -5,6 +5,8 @@ category: [技术]
 index_img: /img/cookie.webp
 banner_img: /img/banner8.jpeg
 date: 2021-07-29 13:20:32
+description: cookie的作用，cookie是怎么来的
+keywords: [本地化存储，cookie]
 ---
 
 ### 什么是Cookie？
