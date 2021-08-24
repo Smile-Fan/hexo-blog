@@ -1,12 +1,17 @@
 ---
 title: 事件循环♻️
-tags: [前端,javascript]
-category: [技术]
+tags:
+  - 前端
+  - javascript
+category:
+  - 技术
 index_img: /img/loop.jpeg
 banner_img: /img/banner8.webp
-date: 2021-08-23 14:35:32
-keywords: [事件循环，javascript事件循环机制，宏队列，微队列]
+keywords:
+  - 事件循环，javascript事件循环机制，宏队列，微队列
 description: 详解事件循环机制
+abbrlink: 3235911
+date: 2021-08-23 14:35:32
 ---
 
 ## 简介

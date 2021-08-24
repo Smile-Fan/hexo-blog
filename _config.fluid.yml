@@ -135,7 +135,7 @@ color:
 
   # 顶部菜单背景色
   # Color of navigation bar background
-  navbar_bg_color: "rgba(137,190,178,0.8)"
+  navbar_bg_color: "#4c5b78"
   navbar_bg_color_dark: "#1f3144"
 
   # 顶部菜单字体色
@@ -250,7 +250,7 @@ web_analytics:  # 网页访问统计
     app_key:
     # REST API 服务器地址，国际版不填
     # Only the Chinese mainland users need to set
-    server_url:
+    server_url: 
 
 # 对页面中的图片和评论插件进行懒加载处理，可见范围外的元素不会提前加载
 # Lazy loading of images and comment plugin on the page
@@ -418,7 +418,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/banner10.webp
+  banner_img: /img/banner11.jpeg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -570,7 +570,7 @@ post:
   # Copyright, will be displayed at the end of each post
   copyright:
     enable: true
-    content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！'
+    content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！<br/> 如有侵权，请联系删除'
 
   # 文章底部上一篇下一篇功能
   # Link to previous/next post
@@ -580,7 +580,7 @@ post:
   # 文章底部自定义区域（位于 footer 上方），支持 HTML，可插入赞赏码、公众号这类内容内容
   # Custom content at the bottom of the post page (located above the footer)
   custom:
-    enable: false
+    enable: true
     content: '<img src="https://octodex.github.com/images/jetpacktocat.png" class="rounded mx-auto d-block mt-5" style="width:150px; height:150px;">'
 
   # 文章图片可点击放大
