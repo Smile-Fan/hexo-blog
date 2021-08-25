@@ -10,3 +10,14 @@ var cat = site.categories.find({name: page.category}).filter(cat => cat.length).
 %>
 
 <%- partial('_partial/archive-list.ejs', { params: { postTotal: cat ? cat.posts.length : 0 } }) %>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?c58c0e5f8760208c108c7a951d499b80";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+    

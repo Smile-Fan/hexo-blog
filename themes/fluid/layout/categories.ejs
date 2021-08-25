@@ -74,3 +74,13 @@ var orderBy = theme.category.order_by || 'name'
   <% cats = site.categories.find({parent: {$exists: false}}).sort(orderBy).filter(cat => cat.length) %>
   <%- render_categories(cats) %>
 </div>
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?c58c0e5f8760208c108c7a951d499b80";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+  
