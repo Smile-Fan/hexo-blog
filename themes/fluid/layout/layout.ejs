@@ -10,7 +10,34 @@ var colorSchema = theme.dark_mode && theme.dark_mode.enable && theme.dark_mode.d
 <html lang="<%= config.language %>" <%= colorSchema ? `data-default-color-scheme="${colorSchema}"` : '' %>>
 
 <%- partial('_partial/head') %>
-
+<style>
+  .side{
+    position: absolute; 
+    /* right: 50px;  */
+    top: 120px; 
+    right: 40px;
+    height: 400px; 
+    width: 230px; 
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 12px 15px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
+  }
+  .side .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px auto;
+  }
+  .side .avatar img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+  }
+  .side .avatar img:hover{
+    transform:rotate(360deg);
+  }
+</style>
 <body>
   <header style="height: <%- banner_img_height %>vh;">
     <%- partial('_partial/nav') %>
@@ -82,12 +109,31 @@ var colorSchema = theme.dark_mode && theme.dark_mode.enable && theme.dark_mode.d
         </div>
       </div>
     <% } %>
+    <!-- <div class="side">
+      <div class="avatar">
+        <img src="/img/avatar.png" alt="xiaofan">
+      </div>
+      <div class="show">
+        <h4 style="text-align: center;">smile</h4>
+        <p style="text-align: center; height: 30px; line-height: 30px; font-size: 14px;">永远相信美好的事情即将发生</p>
+      </div>
+      <div class="btn">
+        <button style="width:30px;height: 30px; border-radius: 50%; border-style: none; border: 0px; text-align: center; line-height: 30px; padding: 0px;">
+        <span class="iconfont icon-a-Arrow-LeftCircle" style="font-size: 30px; color: #fff;"></span>
+        </button>
+        <button style="width:30px;height: 30px; border-radius: 50%; border-style: none; border: 0px; text-align: center; line-height: 30px; padding: 0px;">
+          <span class="iconfont icon-a-Arrow-RightCircle" style="font-size: 30px; color: #fff;"></span>
+          </button>
+      </div>
+    </div> -->
   </main>
 
   <%- partial('_partial/footer', { params: { subtitle: subtitle } }) %>
 
   <!-- SCRIPTS -->
   <%- partial('_partial/scripts') %>
+  <!--浏览器搞笑标题-->
+<script type="text/javascript" src="\js\title.js"></script>
 <!-- 以下写法，选取一种即可 -->
 
 <!-- 现代写法，推荐 -->

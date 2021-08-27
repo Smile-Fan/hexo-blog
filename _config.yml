@@ -174,3 +174,29 @@ sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+
+# live2d
+live2d:
+  enable: true
+  scriptFrom: jsdelivr
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false    # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false
+  model:
+    # use: https://cdn.jsdelivr.net/gh/cn-night-ray/live2d-widget-models@1.0/packages/live2d-widget-model-shizuku/assets/shizuku.model.json
+    use: https://cdn.jsdelivr.net/npm/live2d-widget-model-hibiki@1.0.5/assets/hibiki.model.json
+  display:
+    position: left # 显示位置左、右
+    width: 120      # 宽度
+    height: 260     # 高度
+    hOffset: 20
+    vOffset: 20
+  mobile:
+    show: false      # 移动端显示
+  react:
+    opacity: 0.9    # 透明度
+
+
+
