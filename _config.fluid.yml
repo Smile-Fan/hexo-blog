@@ -180,7 +180,7 @@ color:
 
   # 主面板背景色
   # Color of main board
-  board_color: "rgba(255,255,255,0.7)"
+  board_color: "rgba(255,255,255,0.85)"
   board_color_dark: "#252d38"
 
 # 主题字体配置
