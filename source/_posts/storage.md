@@ -6,7 +6,7 @@ tags:
 category:
   - 技术
 index_img: /img/cookie.webp
-banner_img: /img/banner8.jpeg
+banner_img: /img/banner8.webp
 description: cookie的作用，cookie是怎么来的
 keywords:
   - 本地化存储，cookie
@@ -22,7 +22,7 @@ Cookie是储存在客户端内的纯文本文件。
 解决方式：
 在客户端向服务器端进行第一次请求的时候，服务器端就会在响应中夹杂上这个玩意（set-cookie），客户端接到数据后，会将cookie保存至本地，在下一次进行http请求时会将cookie携带进请求中一块发给服务器，服务器收到响应后会进行检验，一看这不是我刚刚发的cookie那小子嘛，然后就可以区分出请求用户的身份。
 具体流程图如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a1abd2c2924d405e8a6647da98334b5f.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDAyMTk3MA==,size_16,color_FFFFFF,t_70)
+![cookie请求过程](https://img-blog.csdnimg.cn/a1abd2c2924d405e8a6647da98334b5f.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDAyMTk3MA==,size_16,color_FFFFFF,t_70)
 cookie有以下几个特性：
 1. cookie不可跨域（一级域名与二级域名可以）
 2. cookie有数量和大小限制（数量50约个，大小约4kb），超出限制自动删除（删除哪个还得看浏览器大哥脸色）

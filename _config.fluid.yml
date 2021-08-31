@@ -902,12 +902,12 @@ links:
   # 友链的成员项
   # Member item of page
   items:
-    # - {
-    #   title: "Fluid Blog",
-    #   intro: "主题博客",
-    #   link: "https://hexo.fluid-dev.com/",
-    #   avatar: "/img/favicon.png"
-    # }
+    - {
+      title: "yamatu-blog",
+      intro: "萌新不是大佬",
+      link: "https://www.yamatu.top/",
+      avatar: "/img/yamatu-blog.jpeg"
+    }
     # - {
     #   title: "Fluid Docs",
     #   intro: "主题使用指南",

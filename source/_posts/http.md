@@ -1,17 +1,17 @@
 ---
-title: 详解HTTP
+title: 详解HTTP(待更新)
 tags:
   - 前端
   - 网络
 category:
   - 技术
-index_img: /img/httpsTitle.jpeg
+index_img: /img/httpsTitle.webp
 banner_img: /img/banner8.webp
 keywords:
   - http
   - 网络
-abbrlink: 335058367
-date: 2021-08-26 11:13:20
+abbrlink: 2012094547
+date: 2021-08-30 11:13:20
 description:
 ---
 

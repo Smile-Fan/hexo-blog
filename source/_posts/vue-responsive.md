@@ -5,7 +5,7 @@ tags:
   - Vue
 category:
   - 技术
-index_img: /img/httpsTitle.jpeg
+index_img: /img/vue.svg
 banner_img: /img/banner8.webp
 description: Vue通过Observer、Dep、Watcher、Scheduling四步骤实现了数据的响应式
 keywords:

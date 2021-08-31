@@ -5,7 +5,7 @@ tags:
   - javascript
 category:
   - 技术
-index_img: /img/loop.jpeg
+index_img: /img/loop.webp
 banner_img: /img/banner8.webp
 keywords:
   - 事件循环，javascript事件循环机制，宏队列，微队列
@@ -50,8 +50,8 @@ fun2();
     //     老子很帅
 ```
 配几张图来看看事件循环的样子
-![事件循环1](/img/eventloop1.png)
-![事件循环2](/img/eventloop2.png)
+![事件循环1](/img/eventloop1.webp)
+![事件循环2](/img/eventloop2.webp)
 
 到此事件循环概念你肯定已经理解了
 

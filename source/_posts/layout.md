@@ -5,7 +5,7 @@ tags:
   - CSS
 category:
   - 技术
-index_img: /img/httpsTitle.jpeg
+index_img: /img/css.webp
 banner_img: /img/banner8.webp
 keywords:
   - Css

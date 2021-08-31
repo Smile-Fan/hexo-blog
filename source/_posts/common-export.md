@@ -5,7 +5,7 @@ tags:
   - 模块化
 category:
   - 技术
-index_img: /img/common-show.jpeg
+index_img: /img/common-show.webp
 banner_img: /img/banner8.webp
 description: 代码分析commonjs模块化
 keywords:

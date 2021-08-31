@@ -1,7 +1,18 @@
 ---
-abbrlink: 1
+title: 浏览器缓存机制
+tags:
+  - 前端
+  - 浏览器
+category:
+  - 技术
+index_img: /img/chrome.webp
+banner_img: /img/banner8.webp
+description: 请求的缓存机制，强缓存、协商缓存
+keywords:
+  - 请求的缓存机制，强缓存、协商缓存
+abbrlink: 2079018051
+date: 2021-08-30 11:01:32
 ---
-### 浏览器缓存机制
 
 >浏览器有两种缓存机制，强缓存和协商缓存，强缓存不需要发送http请求，检查字段是否过期Expires和Cache-Control
 #### 强缓存
