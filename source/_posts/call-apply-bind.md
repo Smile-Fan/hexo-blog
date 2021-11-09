@@ -1,5 +1,5 @@
 ---
-title: 手写call、apply、bind
+title: 手写call、apply、bind **未完成
 tags:
   - 前端
   - javascript
